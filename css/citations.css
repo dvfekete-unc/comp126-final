@@ -1,0 +1,27 @@
+#bibliography {
+    color: black;
+    font-size: 2em;
+}
+
+h2 {
+    padding-top: 50px;
+}
+
+p {
+    font-size: 1em;
+}
+
+li:hover {
+    text-shadow: 0;
+    cursor: auto;
+}
+
+.main-grid {
+    padding: 50px;
+}
+
+@media screen and (max-width: 950px) {
+    .main-grid {
+        padding: 50px 15px;
+    }
+}

@@ -1,0 +1,36 @@
+.people-container1, .people-container2 {
+    display: block;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 50px;
+}
+
+p {
+    margin: 20px 0px;
+}
+
+#name {
+    color: black;
+    font-size: 3em;
+    padding: 20px;
+}
+
+.main-grid {
+    padding: 50px;
+}
+
+@media screen and (max-width: 950px) {
+    .people-container1, .people-container2 {
+        margin-bottom: 0;
+    }
+
+    .main-grid {
+        padding: 50px 15px;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+}
