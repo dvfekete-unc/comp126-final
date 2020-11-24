@@ -262,7 +262,7 @@ h1 {
     }
 
     #mobilemenu {
-        position: absolute;
+        position: fixed;
         top: 30px;
         right: 0px;
     }
@@ -272,4 +272,3 @@ h1 {
         grid-column: 1 / 2;
     }
 }
-
